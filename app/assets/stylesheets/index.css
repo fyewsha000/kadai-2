@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: verdana, arial, helvetica, sans-serif ;
 }
 
 h1{
@@ -36,3 +37,36 @@ h5{
 	margin-top: 10px;
 }
 
+.flash{
+	color: #82ae46;
+}
+
+.alert{
+	width: 600px;
+	border: 2px solid #ba2636;
+	margin-bottom: 20px;
+	font-size: 15px;
+	background-color: #f0f0f0;
+}
+
+.count{
+	background-color: #ba2636;
+	padding: 3px 0 3px 10px;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+
+ul{
+	margin: 40px;
+}
+
+li{
+	list-style-position: inside;
+}
+
+.field_with_errors{
+	display: table;
+	background-color: #ba2636;
+	padding: 3px;
+}

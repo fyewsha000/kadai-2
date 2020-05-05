@@ -1,5 +1,8 @@
-<p id="notice">
-	<%= notice %></p>
+<% if flash[:notice] %>
+	<div class= "flash">
+		<%= flash[:notice] %>
+	</div>
+<% end %>
 <br>
 <br>
 <h4>title :</h4>
